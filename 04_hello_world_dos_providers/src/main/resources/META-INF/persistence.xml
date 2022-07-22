@@ -1,0 +1,33 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             version="2.1">
+
+    <persistence-unit name="jpa_main"  >
+
+        <!--
+            provider no es un elemento obligatorio, pero sin él, el provider usado
+            (hibernate o eclipselink) se determinará en función del orden de las dependencias.
+            
+            Pensad en el peligro que supone si nuestra aplicación se ejecuta en un entorno que 
+            no controlamos completamente (p.e. un servidor de aplicaciones conviviendo con otras)
+             
+            Para no depender de esto, es muy conveniente indicar explicitamente el provider
+            a usar para este persisence unit con el elemento <provider>
+            
+            Los valores para cada provider concreto son:
+             
+             <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+             <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+         -->
+         
+        <class>org.formacion.jpa.domain.Persona</class>
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:test" />
+            <property name="javax.persistence.schema-generation.database.action" value="create"/>
+
+            <property name="hibernate.show_sql" value="true" />
+            <property name="eclipselink.logging.level" value="FINE" />
+        </properties>
+
+    </persistence-unit>
+
+</persistence>
