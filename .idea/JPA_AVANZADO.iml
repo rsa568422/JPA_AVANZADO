@@ -2,7 +2,27 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/19_spring_boot_ambito_persistence_context/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/19_spring_boot_ambito_persistence_context/target" />
+      <excludeFolder url="file://$MODULE_DIR$/20_spring_boot_transacciones_secuenciales/.apt_generated" />
+      <excludeFolder url="file://$MODULE_DIR$/20_spring_boot_transacciones_secuenciales/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/20_spring_boot_transacciones_secuenciales/target" />
+      <excludeFolder url="file://$MODULE_DIR$/21_spring_boot_transacciones_anidadas/.apt_generated" />
+      <excludeFolder url="file://$MODULE_DIR$/21_spring_boot_transacciones_anidadas/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/21_spring_boot_transacciones_anidadas/target" />
+      <excludeFolder url="file://$MODULE_DIR$/22_caso_estudio_rendimiento/.apt_generated" />
+      <excludeFolder url="file://$MODULE_DIR$/22_caso_estudio_rendimiento/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/22_caso_estudio_rendimiento/target" />
+      <excludeFolder url="file://$MODULE_DIR$/23_caso_estudio_leaked/.apt_generated" />
+      <excludeFolder url="file://$MODULE_DIR$/23_caso_estudio_leaked/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/23_caso_estudio_leaked/target" />
+      <excludeFolder url="file://$MODULE_DIR$/24_caso_estudio_leaked_solucion/.apt_generated" />
+      <excludeFolder url="file://$MODULE_DIR$/24_caso_estudio_leaked_solucion/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/24_caso_estudio_leaked_solucion/target" />
+      <excludeFolder url="file://$MODULE_DIR$/demo/.settings" />
+      <excludeFolder url="file://$MODULE_DIR$/demo/target" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
